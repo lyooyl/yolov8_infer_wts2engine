@@ -1,0 +1,71 @@
+﻿  Building Custom Rule D:/Work/10_yolov8/yolov8_tensorrt-main/CMakeLists.txt
+  Compiling CUDA source file ..\src\process.cu...
+  
+  D:\Work\10_yolov8\yolov8_tensorrt-main\build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"D:\Work\10_yolov8\yolov8_tensorrt-main\include" -I"D:\Work\10_yolov8\yolov8_tensorrt-main\plugin" -I"D:\Program Files\TensorRT-8.2.3.0\include" -I"D:\Qt\opencv-4.5.1\opencv\build\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static -std=c++11 -Xcompiler="/EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DAPI_EXPORTS -D"CMAKE_INTDIR=\"Release\"" -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DAPI_EXPORTS -D"CMAKE_INTDIR=\"Release\"" -Xcompiler "/EHsc /W3 /nologo /O2 /Fdyolov8.dir\Release\vc142.pdb /FS   /MD /GR" -o yolov8.dir\Release\process.obj "D:\Work\10_yolov8\yolov8_tensorrt-main\src\process.cu" 
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(2690): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(4403): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(5300): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(2690): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(4403): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(5300): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+D:/Qt/opencv-4.5.1/opencv/build/include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+CUDACOMPILE : nvcc warning : The -std=c++11 flag is not supported with the configured host compiler. Flag will be ignored.
+  process.cu
+D:/Work/10_yolov8/yolov8_tensorrt-main/src/process.cu(86): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+cl : 命令行 warning D9002: 忽略未知选项“-std=c++11”
+  main.cpp
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(2690,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(4403,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(5300,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  block.cpp
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(2690,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(4403,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(5300,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(8,83): warning C4275: 非 dll 接口 class“nvinfer1::IPluginV2IOExt”用作 dll 接口 class“nvinfer1::YoloLayerPlugin”的基
+D:\Program Files\TensorRT-8.2.3.0\include\NvInferRuntimeCommon.h(916): message : 参见“nvinfer1::IPluginV2IOExt”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(8): message : 参见“nvinfer1::YoloLayerPlugin”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(71,85): warning C4275: 非 dll 接口 class“nvinfer1::IPluginCreator”用作 dll 接口 class“nvinfer1::YoloPluginCreator”的基
+D:\Program Files\TensorRT-8.2.3.0\include\NvInferRuntimeCommon.h(1107): message : 参见“nvinfer1::IPluginCreator”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(71): message : 参见“nvinfer1::YoloPluginCreator”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(95,21): warning C4251: “nvinfer1::YoloPluginCreator::mNamespace”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“nvinfer1::YoloPluginCreator”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(97,41): warning C4251: “nvinfer1::YoloPluginCreator::mPluginAttributes”: class“std::vector<nvinfer1::PluginField,std::allocator<nvinfer1::PluginField>>”需要有 dll 接口由 class“nvinfer1::YoloPluginCreator”的客户端使用
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(97): message : 参见“std::vector<nvinfer1::PluginField,std::allocator<nvinfer1::PluginField>>”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\block.cpp(46,13): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\block.cpp(82,106): warning C4305: “参数”: 从“double”到“float”截断
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\block.cpp(106,12): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\block.cpp(191,90): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+  calibrator.cpp
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(2690,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(4403,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(5300,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\calibrator.cpp(8,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\calibrator.cpp(9,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\calibrator.cpp(12,17): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\Work\10_yolov8\yolov8_tensorrt-main\src\calibrator.cpp(17,17): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  model.cpp
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(2690,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(4403,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(5300,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  utils.cpp
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(2690,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(4403,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Program Files\TensorRT-8.2.3.0\include\NvInfer.h(5300,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+    正在创建库 D:/Work/10_yolov8/yolov8_tensorrt-main/build/Release/yolov8.lib 和对象 D:/Work/10_yolov8/yolov8_tensorrt-main/build/Release/yolov8.exp
+  yolov8.vcxproj -> D:\Work\10_yolov8\yolov8_tensorrt-main\build\Release\yolov8.exe

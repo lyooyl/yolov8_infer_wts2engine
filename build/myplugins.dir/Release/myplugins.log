@@ -1,0 +1,59 @@
+﻿  Building Custom Rule D:/Work/10_yolov8/yolov8_tensorrt-main/CMakeLists.txt
+  Compiling CUDA source file ..\plugin\yololayer.cu...
+  
+  D:\Work\10_yolov8\yolov8_tensorrt-main\build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"D:\Work\10_yolov8\yolov8_tensorrt-main\include" -I"D:\Work\10_yolov8\yolov8_tensorrt-main\plugin" -I"D:\Program Files\TensorRT-8.2.3.0\include" -I"D:\Qt\opencv-4.5.1\opencv\build\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static -std=c++11 -Xcompiler="/EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DAPI_EXPORTS -D"CMAKE_INTDIR=\"Release\"" -Dmyplugins_EXPORTS -D_WINDLL -D_MBCS -D"CMAKE_INTDIR=\"Release\"" -Dmyplugins_EXPORTS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdmyplugins.dir\Release\vc142.pdb /FS   /MD /GR" -o myplugins.dir\Release\yololayer.obj "D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.cu" 
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(2690): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(4403): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(5300): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(8): warning : base class dllexport/dllimport specification differs from that of the derived class
+  
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(57): warning : function "nvinfer1::IPluginV2Ext::configurePlugin(const nvinfer1::Dims *, int32_t, const nvinfer1::Dims *, int32_t, const nvinfer1::DataType *, const nvinfer1::DataType *, const __nv_bool *, const __nv_bool *, nvinfer1::PluginFormat, int32_t)" is hidden by "nvinfer1::YoloLayerPlugin::configurePlugin" -- virtual function override intended?
+  
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(71): warning : base class dllexport/dllimport specification differs from that of the derived class
+  
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(95): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(34): warning : variable "a" was declared but never referenced
+  
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(47): warning : variable "a" was declared but never referenced
+  
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(157): warning : variable "outputElem" was declared but never referenced
+  
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(180): warning : dllexport/dllimport conflict with "nvinfer1::YoloPluginCreator::mFC"
+  (180): here; dllexport assumed
+  
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(181): warning : dllexport/dllimport conflict with "nvinfer1::YoloPluginCreator::mPluginAttributes"
+  (181): here; dllexport assumed
+  
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(2690): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(4403): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Program Files/TensorRT-8.2.3.0/include\NvInfer.h(5300): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(8): warning : base class dllexport/dllimport specification differs from that of the derived class
+  
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(57): warning : function "nvinfer1::IPluginV2Ext::configurePlugin(const nvinfer1::Dims *, int32_t, const nvinfer1::Dims *, int32_t, const nvinfer1::DataType *, const nvinfer1::DataType *, const bool *, const bool *, nvinfer1::PluginFormat, int32_t)" is hidden by "nvinfer1::YoloLayerPlugin::configurePlugin" -- virtual function override intended?
+  
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(71): warning : base class dllexport/dllimport specification differs from that of the derived class
+  
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(95): warning : field of class type without a DLL interface used in a class with a DLL interface
+  
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(180): warning : dllexport/dllimport conflict with "nvinfer1::YoloPluginCreator::mFC"
+  (180): here; dllexport assumed
+  
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(181): warning : dllexport/dllimport conflict with "nvinfer1::YoloPluginCreator::mPluginAttributes"
+  (181): here; dllexport assumed
+  
+CUDACOMPILE : nvcc warning : The -std=c++11 flag is not supported with the configured host compiler. Flag will be ignored.
+  yololayer.cu
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(8): warning C4275: 非 dll 接口 class“nvinfer1::IPluginV2IOExt”用作 dll 接口 class“nvinfer1::YoloLayerPlugin”的基
+  D:\Program Files\TensorRT-8.2.3.0\include\NvInferRuntimeCommon.h(916): note: 参见“nvinfer1::IPluginV2IOExt”的声明
+  D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(8): note: 参见“nvinfer1::YoloLayerPlugin”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(71): warning C4275: 非 dll 接口 class“nvinfer1::IPluginCreator”用作 dll 接口 class“nvinfer1::YoloPluginCreator”的基
+  D:\Program Files\TensorRT-8.2.3.0\include\NvInferRuntimeCommon.h(1107): note: 参见“nvinfer1::IPluginCreator”的声明
+  D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(71): note: 参见“nvinfer1::YoloPluginCreator”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(95): warning C4251: “nvinfer1::YoloPluginCreator::mNamespace”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“nvinfer1::YoloPluginCreator”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(97): warning C4251: “nvinfer1::YoloPluginCreator::mPluginAttributes”: class“std::vector<nvinfer1::PluginField,std::allocator<nvinfer1::PluginField>>”需要有 dll 接口由 class“nvinfer1::YoloPluginCreator”的客户端使用
+  D:\Work\10_yolov8\yolov8_tensorrt-main\plugin\yololayer.h(97): note: 参见“std::vector<nvinfer1::PluginField,std::allocator<nvinfer1::PluginField>>”的声明
+D:/Work/10_yolov8/yolov8_tensorrt-main/plugin/yololayer.cu(186): warning C4267: “=”: 从“size_t”转换到“int32_t”，可能丢失数据
+    正在创建库 D:/Work/10_yolov8/yolov8_tensorrt-main/build/Release/myplugins.lib 和对象 D:/Work/10_yolov8/yolov8_tensorrt-main/build/Release/myplugins.exp
+  myplugins.vcxproj -> D:\Work\10_yolov8\yolov8_tensorrt-main\build\Release\myplugins.dll

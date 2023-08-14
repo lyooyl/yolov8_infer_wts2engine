@@ -1,0 +1,10 @@
+^D:\WORK\10_YOLOV8\YOLOV8_TENSORRT-MAIN\BUILD\CMAKEFILES\9A5C6FCE2E17CB2C2D7D6F9BAD1D25ED\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Work/10_yolov8/yolov8_tensorrt-main -BD:/Work/10_yolov8/yolov8_tensorrt-main/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Work/10_yolov8/yolov8_tensorrt-main/build/yolov8.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

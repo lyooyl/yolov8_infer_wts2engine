@@ -1,0 +1,10 @@
+^D:\WORK\10_YOLOV8\YOLOV8_TENSORRT-MAIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Work/10_yolov8/yolov8_tensorrt-main -BD:/Work/10_yolov8/yolov8_tensorrt-main/build --check-stamp-file D:/Work/10_yolov8/yolov8_tensorrt-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
