@@ -1,7 +1,7 @@
 
 # Reference 
-Reference xiaocao-tian [yolov8_tensorrt](https://github.com/xiaocao-tian/yolov8_tensorrt)
-Reference wang-xinyu [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
+ - Reference xiaocao-tian [yolov8_tensorrt](https://github.com/xiaocao-tian/yolov8_tensorrt)
+ - Reference wang-xinyu [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
 
 # YOLOv8
 The Pytorch implementation is [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
